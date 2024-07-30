@@ -29,6 +29,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   background-image: none;
+  cursor: pointer;
 }
 select option {
   background-color: rgb(0, 0, 0, 0.5);
@@ -46,6 +47,7 @@ a {
 footer {
   text-align: center;
   color: #212922;
+  background-color: #3e6259;
 }
 
 .cities {
@@ -58,6 +60,8 @@ footer {
   padding: 25px 0px;
   border-bottom: 1px dashed rgb(0, 0, 0, 0.1);
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 600px;
+  min-width: 400px;
 }
 .cities:last-child {
   border: none;
