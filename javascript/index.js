@@ -13,18 +13,18 @@ function updateTime() {
     londonTime.innerHTML = time;
   }
 
-  const nycEl = document.querySelector("#nyc");
-  if (nycEl) {
-    const nycDate = nycEl.querySelector(".date");
-    const nycTime = nycEl.querySelector(".time");
+  const tokyoEl = document.querySelector("#tokyo");
+  if (tokyoEl) {
+    const tokyoDate = tokyoEl.querySelector(".date");
+    const tokyoTime = tokyoEl.querySelector(".time");
 
-    let dateNyc = moment().tz("America/New_York").format("MMMM Do YYYY");
-    nycDate.innerHTML = dateNyc;
+    let dateTokyo = moment().tz("Asia/Tokyo").format("MMMM Do YYYY");
+    tokyoDate.innerHTML = dateTokyo;
 
-    let timeNyc = moment()
-      .tz("America/New_York")
+    let timeTokyo = moment()
+      .tz("Asia/Tokyo")
       .format("h:mm:ss:SS [<small>]A[</small>]");
-    nycTime.innerHTML = timeNyc;
+    tokyoTime.innerHTML = timeTokyo;
   }
 
   const sandoEl = document.querySelector("#sando");
