@@ -1,5 +1,5 @@
 body {
-  background-color: #3e6259;
+  background-color: #142d4c;
   height: 100vh;
   margin: 0;
   padding-top: 10px;
@@ -8,8 +8,10 @@ body {
 
 h1 {
   text-align: center;
+  font-weight: 800;
   font-family: "Jersey 15", sans-serif;
   font-size: 38px;
+  text-shadow: rgba(255, 255, 255, 0.81) 2px 5px;
 }
 
 h2 {
@@ -42,7 +44,7 @@ select option:hover {
 }
 a {
   text-decoration: none;
-  color: #aef6c7;
+  color: #407088;
 }
 
 footer {
@@ -50,7 +52,8 @@ footer {
   color: whitesmoke;
   background-color: rgb(43, 54, 49);
   padding: 10px;
-  position: static;
+  width: 100%;
+  position: fixed;
   bottom: 0;
 }
 
@@ -86,12 +89,13 @@ footer {
 }
 #container {
   display: block;
-  margin: 50px auto;
+  margin: 20px auto;
   border: 1px solid transparent;
   border-radius: 10px;
   max-width: 600px;
   min-width: 400px;
-  padding: 60px;
+  padding: 40px;
+  margin-bottom: 40px;
   text-align: center;
   background-color: rgb(171, 161, 148, 0.3);
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
